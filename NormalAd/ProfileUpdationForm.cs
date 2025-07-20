@@ -18,12 +18,15 @@ namespace NormalAd
         private int _customerId;
         private int _employeeId;
 
+        // Constructor to initialize the form with the customer's email
         public ProfileUpdationForm(string email)
         {
             InitializeComponent();
             _email = email;
             LoadCustomerDetailsByEmail(_email);
         }
+
+        // Update the customer profile with the provided details
 
         private void btnUp_Click(object sender, EventArgs e)
         {
@@ -82,6 +85,8 @@ namespace NormalAd
             }
         }
 
+        // Load customer details from the database using the provided email
+
         private void LoadCustomerDetailsByEmail(string email)
         {
             try
@@ -130,6 +135,7 @@ namespace NormalAd
 
         }
 
+        // Delete the profile of the customer
         private void btnDl_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Are you sure you want to delete your profile?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -163,7 +169,8 @@ namespace NormalAd
             }
         }
 
-            private bool ValidateForm()
+        // Validate the form inputs before updating
+        private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtEmail.Text) ||
@@ -190,6 +197,22 @@ namespace NormalAd
         private void ProfileUpdationForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        // Clear all input fields and reset the form
+        private void btnCl_Click(object sender, EventArgs e)
+        {
+            txtAdd.Clear();
+            txtCon.Clear();
+            txtCPass.Clear();
+            txtEmail.Clear();
+            txtName.Clear();
+            txtNIC.Clear();
+            txtPass.Clear();
+            rbMale.Checked = false;
+            rbFemale.Checked = false;
+            dtpDOB.Value = DateTime.Today;
+            cmbMartial.Text = "Select Martial Status";
         }
     }
     

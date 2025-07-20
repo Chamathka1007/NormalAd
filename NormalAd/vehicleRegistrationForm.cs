@@ -52,10 +52,9 @@ namespace NormalAd
                     conn.Open();
 
                     string query = @"
-                        INSERT INTO vehicle_registration
-                        (Vehicle_Number, Vehicle_Type, OwnerContact, Note) 
-                        VALUES 
-                        (@VehicleNumber, @VehicleType, @OwnerContact, @Note)";
+                                 INSERT INTO vehicle_registration
+                                     (Vehicle_Number, Vehicle_Type, OwnerContact, Note, Status) 
+                                     VALUES (@VehicleNumber, @VehicleType, @OwnerContact, @Note, @Status)";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
@@ -63,18 +62,20 @@ namespace NormalAd
                         cmd.Parameters.AddWithValue("@VehicleType", vehicleType);
                         cmd.Parameters.AddWithValue("@OwnerContact", ownerContact);
                         cmd.Parameters.AddWithValue("@Note", note);
+                        cmd.Parameters.AddWithValue("@Status", "Pending");
+
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("✅ Vehicle registered successfully!", "Success",
+                            MessageBox.Show("Vehicle registered successfully!", "Success",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
                             ClearForm();
                         }
                         else
                         {
-                            MessageBox.Show("❌ Failed to register vehicle.", "Error",
+                            MessageBox.Show("Failed to register vehicle.", "Error",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }

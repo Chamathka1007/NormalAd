@@ -81,6 +81,7 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dataGridView1);
             this.Name = "EmployeeRegisteredView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeRegisteredView";
             this.Load += new System.EventHandler(this.EmployeeRegisteredView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

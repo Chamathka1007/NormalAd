@@ -15,7 +15,7 @@ namespace NormalAd
             InitializeComponent();
             selectedRID = rid;
         }
-
+        //Assign Form Load
         private void AssigningForm_Load(object sender, EventArgs e)
         {
             LoadRequests();
@@ -28,15 +28,18 @@ namespace NormalAd
             cmbStatu.Items.Add("-- Select Status --");
             cmbStatu.Items.AddRange(new string[] { "Assigned", "In Progress", "Completed" });
             cmbStatu.SelectedIndex = 0;
+            dtpAssignedDate.MinDate = DateTime.Today; // Ensure the date is not in the past
 
             dtpAssignedDate.Value = DateTime.Today;
 
             if (selectedRID > 0)
             {
-                cmbRID.SelectedItem = selectedRID.ToString();
+                lblRID.Text = $" {selectedRID}";
             }
         }
-
+            
+        
+        //creating loadrequests method to load pending service requests
         private void LoadRequests()
         {
             using (var conn = new MySqlConnection(connStr))
@@ -47,14 +50,11 @@ namespace NormalAd
                 adapter.Fill(dt);
                 dataGridView1.DataSource = dt;
 
-                cmbRID.Items.Clear();
-                foreach (DataRow row in dt.Rows)
-                {
-                    cmbRID.Items.Add(row["RID"].ToString());
-                }
+                lblRID.Text = "";
+               
             }
         }
-
+        //creating loadvehicleTypes method to load vehicle types
         private void LoadVehicleTypes()
         {
             cmbVehicleType.Items.Clear();
@@ -72,7 +72,7 @@ namespace NormalAd
             }
             cmbVehicleType.SelectedIndex = 0;
         }
-
+        //creating loadvehiclesByType method to load vehicles based on selected type
         private void LoadVehiclesByType(string vehicleType)
         {
             cmbVehicle.Items.Clear();
@@ -92,7 +92,7 @@ namespace NormalAd
             }
             cmbVehicle.SelectedIndex = 0;
         }
-
+        //creating loadcontainers method to load available containers
         private void LoadContainers()
         {
             cmbContain.Items.Clear();
@@ -116,6 +116,7 @@ namespace NormalAd
             }
             cmbContain.SelectedIndex = 0;
         }
+        //creating loaddrivers method to load available drivers
 
         private void LoadDrivers()
         {
@@ -134,7 +135,7 @@ namespace NormalAd
             }
             cmbDriver.SelectedIndex = 0;
         }
-
+        //creating loadassistants method to load available assistants
         private void LoadAssistants()
         {
             cmbAssistant.Items.Clear();
@@ -164,10 +165,10 @@ namespace NormalAd
 
         private void cmbRID_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmbRID.SelectedItem != null)
-                selectedRID = Convert.ToInt32(cmbRID.SelectedItem.ToString());
+            
         }
 
+        // Event handler for the "Assign" button click
         private void btnAss_Click(object sender, EventArgs e)
         {
             if (selectedRID == -1 || cmbVehicle.SelectedIndex <= 0 || cmbContain.SelectedIndex <= 0 || cmbStatu.SelectedIndex <= 0
@@ -176,7 +177,7 @@ namespace NormalAd
                 MessageBox.Show("⚠️ Please fill all required fields.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            // Get the selected values from the form controls
             string vid = cmbVehicle.SelectedItem.ToString().Split('-')[0].Trim();
             string containerID = cmbContain.SelectedItem.ToString().Split('-')[0].Trim();
 
@@ -184,7 +185,7 @@ namespace NormalAd
             {
                 conn.Open();
 
-                // ✅ FIRST: Insert into load_assignment
+                // Insert into load_assignment
                 var cmd = new MySqlCommand(@"
             INSERT INTO load_assignment
             (RID, VID, DriverName, AssistantName, ContainerID, AssignedDate, Status)
@@ -201,7 +202,7 @@ namespace NormalAd
 
                 cmd.ExecuteNonQuery();
 
-                // ✅ THEN: Update service_request status
+                //  Update service_request status
                 var updateCmd = new MySqlCommand(
                     "UPDATE service_request SET Status = 'Confirmed' WHERE RID = @RID", conn);
                 updateCmd.Parameters.AddWithValue("@RID", selectedRID);
@@ -209,13 +210,11 @@ namespace NormalAd
 
                 MessageBox.Show("✅ Assignment recorded successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                this.Hide(); // hide admin dashboard
-
-                AssigningForm assigningForm = new AssigningForm(-1);
-                assigningForm.StartPosition = FormStartPosition.CenterScreen;
-                assigningForm.Show(); this.Close();
+                // Close the form after successful assignment
+                this.Close();
             }
 
+            // Clear the form and reload data
             ClearForm();
             LoadRequests();
             LoadContainers();
@@ -228,9 +227,10 @@ namespace NormalAd
             ClearForm();
         }
 
+        // Method to clear the form fields
         private void ClearForm()
         {
-            cmbRID.SelectedIndex = -1;
+            lblRID.Text = "";
             cmbVehicleType.SelectedIndex = 0;
             cmbVehicle.SelectedIndex = 0;
             cmbContain.SelectedIndex = 0;
@@ -242,12 +242,13 @@ namespace NormalAd
             selectedRID = -1;
         }
 
+        // Event handler for DataGridView cell click to select a request
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 selectedRID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["RID"].Value);
-                cmbRID.SelectedItem = selectedRID.ToString();
+                lblRID.Text = $" {selectedRID}";
             }
         }
 
@@ -256,6 +257,7 @@ namespace NormalAd
 
         }
 
+        // Event handler for Vehicle Type ComboBox selection change
         private void cmbVehicleType_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (cmbVehicleType.SelectedIndex <= 0)

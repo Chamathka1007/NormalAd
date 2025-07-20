@@ -14,12 +14,14 @@ namespace NormalAd
 {
     public partial class AdminDashboard : Form
     {
+        
         public AdminDashboard()
         {
             InitializeComponent();
 
         }
 
+        
         private void AdminDashboard_Load(object sender, EventArgs e)
         {
             this.IsMdiContainer = true;
@@ -30,6 +32,10 @@ namespace NormalAd
            
         }
 
+
+
+
+        // Event handler for the "Registered Customers" menu item
         private void customerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RegisteredCustomerView customersForm = new RegisteredCustomerView();
@@ -39,6 +45,8 @@ namespace NormalAd
             customersForm.Show();
         }
 
+
+        // Event handler for the "Employees" menu item
         private void employeesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -49,12 +57,14 @@ namespace NormalAd
             employeeFormview.Show();
 
         }
+        // Method to close all child forms in the MDI container
         private void CloseAllChildren()
         {
             foreach (Form child in this.MdiChildren)
                 child.Close();
         }
 
+        // Event handler for the "Employee Registration" menu item
         private void employeeRegistrationToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -66,6 +76,7 @@ namespace NormalAd
             employeeForm.Show();
 
         }
+        // Event handler for the "Customer Registration" menu item
 
         private void customerRegistrationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -77,6 +88,7 @@ namespace NormalAd
             customerForm.Show();
 
         }
+        // Event handler for the "Job Requests" menu item
 
         private void jobRequestsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -88,7 +100,7 @@ namespace NormalAd
             jobRequestsForm.Show();
 
         }
-
+        // Event handler for the "Log Out" menu item
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
           LoginForm loginForm = new LoginForm();
@@ -101,6 +113,7 @@ namespace NormalAd
 
         }
 
+        // Event handler for the "Vehicle Registration" menu item
         private void vehicleResgistrationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -111,6 +124,7 @@ namespace NormalAd
             vehicleRegistrationForm.Show();
         }
 
+        // Event handler for the "Vehicle View" menu item
         private void vehicleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -122,6 +136,7 @@ namespace NormalAd
 
         }
 
+        // Event handler for the "About Jobs" menu item
         private void serviceHistoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -133,6 +148,7 @@ namespace NormalAd
 
         }
 
+        // Event handler for the "Job Status" menu item
         private void jobStatusToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -143,6 +159,7 @@ namespace NormalAd
             jobStatusForm.Show();
         }
 
+        // Event handler for the "Container Registration" menu item
         private void containerRegistrationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -153,6 +170,7 @@ namespace NormalAd
             containerForm.Show();
         }
 
+        // Event handler for the "Containers" menu item
         private void containersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -163,6 +181,7 @@ namespace NormalAd
             containersViewForm.Show();
         }
 
+        // Event handler for the "Transport" menu item
         private void transportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -173,16 +192,18 @@ namespace NormalAd
             assigningForm.Show();
         }
 
+        // Event handler for the "Personal Information" menu item
         private void personalInformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
-            AdminProfile adminProfile = new AdminProfile(2); // Assuming 1 is the admin ID, replace with actual ID as needed
+            AdminProfile adminProfile = new AdminProfile(2); 
             adminProfile.MdiParent = this;
             adminProfile.Dock = DockStyle.Fill;
             adminProfile.FormBorderStyle = FormBorderStyle.None;
             adminProfile.Show();
         }
 
+        // Event handler for the "Report Generation" menu item
         private void reportGenerationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();

@@ -87,7 +87,7 @@ namespace ADProject
                 MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        // // Event handler for form load
         private void LoginForm_Load(object sender, EventArgs e)
         {
             cmdRole.SelectedIndex = 0;
@@ -100,6 +100,7 @@ namespace ADProject
             cmdRole.SelectedIndex = 0;
         }
 
+        // Event handler for the "Forgot Password?" link
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             string email = txtEmail.Text.Trim();
@@ -131,6 +132,7 @@ namespace ADProject
             }
         }
 
+        //
         private string GetUserRole(string email)
         {
             using (var conn = new MySqlConnection(connectionString))

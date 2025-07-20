@@ -77,6 +77,20 @@ namespace NormalAd
 
         private void dgvJobs_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+
+            string status = dgvJobs.Rows[e.RowIndex].Cells["CurrentStatus"].Value.ToString();
+
+            if (status.Equals("Completed", StringComparison.OrdinalIgnoreCase))
+            {
+                btnUp.Enabled = false;
+                MessageBox.Show("This job is already marked as Completed and cannot be updated.",
+                    "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                btnUp.Enabled = true;
+            }
+            // Reset selectedRID when a new job is clicked
             if (e.RowIndex >= 0)
             {
                 selectedRID = Convert.ToInt32(dgvJobs.Rows[e.RowIndex].Cells["RID"].Value);

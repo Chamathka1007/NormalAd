@@ -57,6 +57,7 @@
             // 
             // cmbMartial
             // 
+            this.cmbMartial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMartial.FormattingEnabled = true;
             this.cmbMartial.Items.AddRange(new object[] {
             "--SELECT--",
@@ -64,7 +65,7 @@
             "UnMarried"});
             this.cmbMartial.Location = new System.Drawing.Point(885, 394);
             this.cmbMartial.Name = "cmbMartial";
-            this.cmbMartial.Size = new System.Drawing.Size(256, 24);
+            this.cmbMartial.Size = new System.Drawing.Size(256, 33);
             this.cmbMartial.TabIndex = 85;
             this.cmbMartial.SelectedIndexChanged += new System.EventHandler(this.cmbMartial_SelectedIndexChanged);
             // 
@@ -79,7 +80,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(171, 29);
             this.label12.TabIndex = 84;
-            this.label12.Text = "Martial Status";
+            this.label12.Text = "Marital Status";
             // 
             // btnCl
             // 
@@ -349,7 +350,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1198, 565);
-            this.ControlBox = false;
             this.Controls.Add(this.cmbMartial);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.btnCl);

@@ -89,7 +89,12 @@ namespace NormalAd
            
         }
 
-        private void btnUpdate_Click_1(object sender, EventArgs e)
+        /// <summary>
+        /// Handles the 1 event of the btnUpdate_Click control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+         private void btnUpdate_Click_1(object sender, EventArgs e)
         {
             string email = txtEmail.Text.Trim();
             string password = txtPassword.Text.Trim();
@@ -144,6 +149,8 @@ namespace NormalAd
             }
         }
 
+
+        
         private void btnDelete_Click_1(object sender, EventArgs e)
         {
             var confirm = MessageBox.Show("Are you sure you want to delete this admin profile?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -182,12 +189,18 @@ namespace NormalAd
             }
         }
 
+      
         private void btnClear_Click_1(object sender, EventArgs e)
         {
             txtEmail.Text = "";
             txtPassword.Text = "";
             txtCPass.Text = "";
            
+        }
+
+        private void txtCPass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

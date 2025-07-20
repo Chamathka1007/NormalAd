@@ -12,12 +12,18 @@ using System.Windows.Forms;
 
 namespace NormalAd
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     public partial class CDashboards : Form
     {
         private int _customerId;
         private string _loggedInEmail;
         private string email;
 
+
+        // Constructor to initialize the dashboard with customer ID and email
         public CDashboards(int customerId, string email)
         {
             InitializeComponent();
@@ -31,6 +37,11 @@ namespace NormalAd
         {
         }
 
+        /// <summary>
+        /// Handles the Click event of the profileToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void profileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -45,6 +56,7 @@ namespace NormalAd
             }
             else
             {
+                // Show an error message if the email is not found
                 MessageBox.Show("User email not found. Please login again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -55,6 +67,11 @@ namespace NormalAd
                 child.Close();
         }
 
+        /// <summary>
+        /// Handles the Click event of the jobsToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void jobsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -73,8 +90,14 @@ namespace NormalAd
 
         }
 
+        /// <summary>
+        /// Handles the Click event of the jobStatusToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void jobStatusToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Close all child forms before opening the new one
             CloseAllChildren();
             ServiceStatus serviceStatusForm = new ServiceStatus(_customerId);
             serviceStatusForm.MdiParent = this;
@@ -94,6 +117,11 @@ namespace NormalAd
             cHome.Show();
         }
 
+        /// <summary>
+        /// Handles the Click event of the aboutToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CloseAllChildren();
@@ -104,6 +132,11 @@ namespace NormalAd
             cAbout.Show();
         }
 
+        /// <summary>
+        /// Handles the Click event of the logOutToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoginForm login = new LoginForm();

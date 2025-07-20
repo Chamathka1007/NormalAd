@@ -24,7 +24,12 @@ namespace NormalAd
             
         }
 
-        private void AdminServiceRequestView_Load(object sender, EventArgs e)
+        /// <summary>
+        /// Handles the Load event of the AdminServiceRequestView control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+       private void AdminServiceRequestView_Load(object sender, EventArgs e)
         {
             LoadPendingRequests();
         }
@@ -50,7 +55,7 @@ namespace NormalAd
 
                         dataGridView1.DataSource = serviceRequestsTable;
 
-                        dataGridView1.Columns["RID"].HeaderText = "Request ID";
+                        dataGridView1.Columns["RID"].HeaderText = "";
                         dataGridView1.Columns["RID"].ReadOnly = true;
                         dataGridView1.Columns["Status"].ReadOnly = true;
 
@@ -65,6 +70,12 @@ namespace NormalAd
             }
         }
 
+        /// <summary>
+        /// Handles the CellClick event of the dataGridView1 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        /// <returns></returns>
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -77,6 +88,12 @@ namespace NormalAd
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the btnConfirm control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
+        /// <returns></returns>
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             if (selectedRequestId == -1)
@@ -103,6 +120,12 @@ namespace NormalAd
 
         }
 
+        /// <summary>
+        /// Handles the Click event of the btnDecline control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
+        /// <returns></returns>
         private void btnDecline_Click(object sender, EventArgs e)
         {
             if (selectedRequestId == -1)
@@ -114,10 +137,16 @@ namespace NormalAd
             UpdateRequestStatus("Declined");
         }
 
+        /// <summary>
+        /// Updates the request status.
+        /// </summary>
+        /// <param name="newStatus">The new status.</param>
+        /// <returns></returns>
         private void UpdateRequestStatus(string newStatus)
         {
             using (var conn = new MySqlConnection(connStr))
             {
+                // Check if the selectedRequestId is valid
                 try
                 {
                     conn.Open();
@@ -146,6 +175,7 @@ namespace NormalAd
                     selectedRequestId = -1;
                     LoadPendingRequests(); // refresh view
                 }
+                // Catch any exceptions that occur during the database operation
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error updating request: " + ex.Message,

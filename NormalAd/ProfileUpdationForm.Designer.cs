@@ -62,7 +62,7 @@
             // 
             this.btnCl.BackColor = System.Drawing.Color.Azure;
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCl.Location = new System.Drawing.Point(798, 534);
             this.btnCl.Margin = new System.Windows.Forms.Padding(4);
             this.btnCl.Name = "btnCl";
@@ -70,6 +70,7 @@
             this.btnCl.TabIndex = 111;
             this.btnCl.Text = "Clear";
             this.btnCl.UseVisualStyleBackColor = false;
+            this.btnCl.Click += new System.EventHandler(this.btnCl_Click);
             // 
             // cmbMartial
             // 
@@ -100,7 +101,7 @@
             // 
             this.btnDl.BackColor = System.Drawing.Color.Azure;
             this.btnDl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnDl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDl.Location = new System.Drawing.Point(529, 534);
             this.btnDl.Margin = new System.Windows.Forms.Padding(4);
             this.btnDl.Name = "btnDl";
@@ -333,7 +334,7 @@
             // 
             this.btnUp.BackColor = System.Drawing.Color.Azure;
             this.btnUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUp.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnUp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnUp.Location = new System.Drawing.Point(246, 534);
             this.btnUp.Margin = new System.Windows.Forms.Padding(4);
             this.btnUp.Name = "btnUp";

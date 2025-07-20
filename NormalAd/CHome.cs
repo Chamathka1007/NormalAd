@@ -16,5 +16,10 @@ namespace NormalAd
         {
             InitializeComponent();
         }
+
+        private void CHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

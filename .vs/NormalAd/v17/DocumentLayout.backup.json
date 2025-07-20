@@ -1,0 +1,936 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|c:\\users\\wwwcs\\downloads\\normalad\\normalad\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\containerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\containerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\containerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\containerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\employeeregisteredview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\employeeregisteredview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\chome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\chome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\cdashboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\cdashboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\assigningform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\assigningform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminservicerequestview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminservicerequestview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\aboutjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\aboutjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminservicerequestview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminservicerequestview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\customerreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\cabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\cabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\assigningform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\assigningform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\servicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\servicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\jobstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\jobstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\servicehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\servicehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\servicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\servicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\servicehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\servicehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\jobstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\jobstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\registeredcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\registeredcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\jobservice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\jobservice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\vehicleregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\vehicleregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\vehicleregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\vehicleregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\chome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\chome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\cdashboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\cdashboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\cabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\cabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\aboutjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\aboutjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\profileupdationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\profileupdationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\pastjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\pastjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\pastjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\pastjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|NormalAd||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\vehicleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\vehicleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\rcontaineresview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\rcontaineresview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\vehicleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\vehicleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\pastjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\pastjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\profileupdationform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\profileupdationform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\adminprofile.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\adminprofile.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\registeredcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\registeredcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|C:\\Users\\wwwcs\\Downloads\\NormalAd\\normalad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8EC63A-F2B1-4BBA-ADF4-8ED0B0B610E1}|NormalAd\\NormalAd.csproj|solutionrelative:normalad\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.cs",
+              "RelativeToolTip": "NormalAd\\ReportForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:21:50.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeRegisteredView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegisteredView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\EmployeeRegisteredView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegisteredView.cs [Design]",
+              "RelativeToolTip": "NormalAd\\EmployeeRegisteredView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:05:30.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContainerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ContainerForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ContainerForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ContainerForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\ContainerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:33:07.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContainerForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ContainerForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ContainerForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ContainerForm.cs",
+              "RelativeToolTip": "NormalAd\\ContainerForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAIA5wFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T04:54:51.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Program.cs",
+              "RelativeDocumentMoniker": "NormalAd\\Program.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Program.cs",
+              "RelativeToolTip": "NormalAd\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:56:11.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\ReportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:02:23.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerReg.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CustomerReg.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CustomerReg.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CustomerReg.cs [Design]",
+              "RelativeToolTip": "NormalAd\\CustomerReg.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:57:12.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CHome.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CHome.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CHome.cs [Design]",
+              "RelativeToolTip": "NormalAd\\CHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:05:20.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CDashboards.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CDashboards.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CDashboards.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CDashboards.cs [Design]",
+              "RelativeToolTip": "NormalAd\\CDashboards.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:58:01.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssigningForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AssigningForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AssigningForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AssigningForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\AssigningForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:37:26.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminServiceRequestView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminServiceRequestView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminServiceRequestView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminServiceRequestView.cs [Design]",
+              "RelativeToolTip": "NormalAd\\AdminServiceRequestView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:39:06.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminProfile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminProfile.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.cs [Design]",
+              "RelativeToolTip": "NormalAd\\AdminProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T18:06:31.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminProfile.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminProfile.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.cs",
+              "RelativeToolTip": "NormalAd\\AdminProfile.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAApwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:36:26.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "NormalAd\\AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:55:17.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutJobs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AboutJobs.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AboutJobs.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AboutJobs.cs [Design]",
+              "RelativeToolTip": "NormalAd\\AboutJobs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:47:44.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminServiceRequestView.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminServiceRequestView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminServiceRequestView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminServiceRequestView.cs",
+              "RelativeToolTip": "NormalAd\\AdminServiceRequestView.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwGUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:27:44.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerReg.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CustomerReg.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CustomerReg.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CustomerReg.cs",
+              "RelativeToolTip": "NormalAd\\CustomerReg.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAlwFwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:06:45.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.cs",
+              "RelativeToolTip": "NormalAd\\LoginForm.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAIAwwIcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:08:47.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T18:08:12.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CAbout.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CAbout.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CAbout.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CAbout.cs [Design]",
+              "RelativeToolTip": "NormalAd\\CAbout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:18:55.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ServiceStatus.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceStatus.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ServiceStatus.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceStatus.cs [Design]",
+              "RelativeToolTip": "NormalAd\\ServiceStatus.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:12:48.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceHistory.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ServiceHistory.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceHistory.cs [Design]",
+              "RelativeToolTip": "NormalAd\\ServiceHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T02:43:10.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceStatus.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceStatus.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ServiceStatus.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceStatus.cs",
+              "RelativeToolTip": "NormalAd\\ServiceStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:12:51.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobStatusForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobStatusForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\JobStatusForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobStatusForm.cs",
+              "RelativeToolTip": "NormalAd\\JobStatusForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:12:36.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssigningForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AssigningForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AssigningForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AssigningForm.cs",
+              "RelativeToolTip": "NormalAd\\AssigningForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:39:33.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JobStatusForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobStatusForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\JobStatusForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobStatusForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\JobStatusForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:16:55.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServiceHistory.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceHistory.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ServiceHistory.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ServiceHistory.cs",
+              "RelativeToolTip": "NormalAd\\ServiceHistory.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAhwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:18:18.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisteredCustomerView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RegisteredCustomerView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\RegisteredCustomerView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RegisteredCustomerView.cs [Design]",
+              "RelativeToolTip": "NormalAd\\RegisteredCustomerView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:23:43.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmployeeRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegistration.cs",
+              "RelativeDocumentMoniker": "NormalAd\\EmployeeRegistration.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegistration.cs [Design]",
+              "RelativeToolTip": "NormalAd\\EmployeeRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:52:36.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.cs",
+              "RelativeDocumentMoniker": "NormalAd\\JobService.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.cs",
+              "RelativeToolTip": "NormalAd\\JobService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:04:45.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JobService.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.cs",
+              "RelativeDocumentMoniker": "NormalAd\\JobService.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.cs [Design]",
+              "RelativeToolTip": "NormalAd\\JobService.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:12:05.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JobService.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\JobService.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\JobService.Designer.cs",
+              "RelativeToolTip": "NormalAd\\JobService.Designer.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAApwFgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:40:51.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "vehicleRegistrationForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\vehicleRegistrationForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\vehicleRegistrationForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\vehicleRegistrationForm.cs",
+              "RelativeToolTip": "NormalAd\\vehicleRegistrationForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:38:17.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "vehicleRegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\vehicleRegistrationForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\vehicleRegistrationForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\vehicleRegistrationForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\vehicleRegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:42:23.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CHome.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CHome.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CHome.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CHome.cs",
+              "RelativeToolTip": "NormalAd\\CHome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:20:29.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CDashboards.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CDashboards.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CDashboards.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CDashboards.cs",
+              "RelativeToolTip": "NormalAd\\CDashboards.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAApwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:14:51.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CAbout.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CAbout.cs",
+              "RelativeDocumentMoniker": "NormalAd\\CAbout.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\CAbout.cs",
+              "RelativeToolTip": "NormalAd\\CAbout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:18:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.cs",
+              "RelativeToolTip": "NormalAd\\AdminDashboard.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwM0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:55:12.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AboutJobs.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AboutJobs.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AboutJobs.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AboutJobs.cs",
+              "RelativeToolTip": "NormalAd\\AboutJobs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:47:46.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProfileUpdationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ProfileUpdationForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ProfileUpdationForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ProfileUpdationForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\ProfileUpdationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:37:07.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PastJob.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.cs",
+              "RelativeDocumentMoniker": "NormalAd\\PastJob.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.cs",
+              "RelativeToolTip": "NormalAd\\PastJob.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAkwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:37:37.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PastJob.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.cs",
+              "RelativeDocumentMoniker": "NormalAd\\PastJob.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.cs [Design]",
+              "RelativeToolTip": "NormalAd\\PastJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:11:59.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "NormalAd",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\NormalAd.csproj",
+              "RelativeDocumentMoniker": "NormalAd\\NormalAd.csproj",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\NormalAd.csproj",
+              "RelativeToolTip": "NormalAd\\NormalAd.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-19T05:17:50.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "NormalAd\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Properties\\Resources.resx",
+              "RelativeToolTip": "NormalAd\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-19T05:24:15.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "NormalAd\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "NormalAd\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:24:03.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmployeeRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegistration.cs",
+              "RelativeDocumentMoniker": "NormalAd\\EmployeeRegistration.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\EmployeeRegistration.cs",
+              "RelativeToolTip": "NormalAd\\EmployeeRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:52:38.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "VehicleView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\VehicleView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\VehicleView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\VehicleView.cs [Design]",
+              "RelativeToolTip": "NormalAd\\VehicleView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:30:49.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RContaineresView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RContaineresView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\RContaineresView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RContaineresView.cs [Design]",
+              "RelativeToolTip": "NormalAd\\RContaineresView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T17:07:58.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\LoginForm.Designer.cs",
+              "RelativeToolTip": "NormalAd\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAADwv40AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T20:10:13.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "VehicleView.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\VehicleView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\VehicleView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\VehicleView.cs",
+              "RelativeToolTip": "NormalAd\\VehicleView.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIBJwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T20:03:08.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PastJob.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\PastJob.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\PastJob.Designer.cs",
+              "RelativeToolTip": "NormalAd\\PastJob.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAjwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T19:44:17.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdminProfile.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminProfile.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.Designer.cs",
+              "RelativeToolTip": "NormalAd\\AdminProfile.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAABRwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:46:31.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\AdminDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminDashboard.Designer.cs",
+              "RelativeToolTip": "NormalAd\\AdminDashboard.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:55:12.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProfileUpdationForm.resx",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ProfileUpdationForm.resx",
+              "RelativeDocumentMoniker": "NormalAd\\ProfileUpdationForm.resx",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ProfileUpdationForm.resx",
+              "RelativeToolTip": "NormalAd\\ProfileUpdationForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-18T12:46:31.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminProfile.resx",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.resx",
+              "RelativeDocumentMoniker": "NormalAd\\AdminProfile.resx",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\AdminProfile.resx",
+              "RelativeToolTip": "NormalAd\\AdminProfile.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-18T12:46:31.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ReportForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.Designer.cs",
+              "RelativeDocumentMoniker": "NormalAd\\ReportForm.Designer.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\ReportForm.Designer.cs",
+              "RelativeToolTip": "NormalAd\\ReportForm.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAABRwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:50:21.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RegisteredCustomerView.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RegisteredCustomerView.cs",
+              "RelativeDocumentMoniker": "NormalAd\\RegisteredCustomerView.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\RegisteredCustomerView.cs",
+              "RelativeToolTip": "NormalAd\\RegisteredCustomerView.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:10:32.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\MainForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\MainForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\MainForm.cs",
+              "RelativeToolTip": "NormalAd\\MainForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:34:57.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\MainForm.cs",
+              "RelativeDocumentMoniker": "NormalAd\\MainForm.cs",
+              "ToolTip": "C:\\Users\\wwwcs\\Downloads\\NormalAd\\NormalAd\\MainForm.cs [Design]",
+              "RelativeToolTip": "NormalAd\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:34:55.548Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

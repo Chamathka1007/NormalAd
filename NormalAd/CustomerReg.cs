@@ -87,7 +87,10 @@ namespace NormalAd
             return "Other";
         }
 
-        private bool ValidateForm()
+
+        /// <summary>
+        /// Validates the form.
+            private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtEmail.Text) ||
@@ -112,6 +115,11 @@ namespace NormalAd
             return true;
         }
 
+        /// <summary>
+        /// Handles the Load event of the CustomerReg control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void CustomerReg_Load(object sender, EventArgs e)
         {
             dtpDOB.Value = DateTime.Today;

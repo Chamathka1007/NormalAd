@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AssigningForm));
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbRID = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbContain = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,6 +48,7 @@
             this.dtpAssignedDate = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.cmbVehicleType = new System.Windows.Forms.ComboBox();
+            this.lblRID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,19 +64,6 @@
             this.label1.Size = new System.Drawing.Size(201, 42);
             this.label1.TabIndex = 63;
             this.label1.Text = "Assigning ";
-            // 
-            // cmbRID
-            // 
-            this.cmbRID.FormattingEnabled = true;
-            this.cmbRID.Items.AddRange(new object[] {
-            "--SELECT--",
-            "Married",
-            "UnMarried"});
-            this.cmbRID.Location = new System.Drawing.Point(358, 111);
-            this.cmbRID.Name = "cmbRID";
-            this.cmbRID.Size = new System.Drawing.Size(256, 24);
-            this.cmbRID.TabIndex = 87;
-            this.cmbRID.SelectedIndexChanged += new System.EventHandler(this.cmbRID_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -180,7 +167,7 @@
             this.cmbDriver.FormattingEnabled = true;
             this.cmbDriver.Items.AddRange(new object[] {
             "--SELECT--"});
-            this.cmbDriver.Location = new System.Drawing.Point(358, 206);
+            this.cmbDriver.Location = new System.Drawing.Point(379, 206);
             this.cmbDriver.Name = "cmbDriver";
             this.cmbDriver.Size = new System.Drawing.Size(256, 24);
             this.cmbDriver.TabIndex = 95;
@@ -214,7 +201,7 @@
             // 
             this.btnCl.BackColor = System.Drawing.Color.Azure;
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCl.Location = new System.Drawing.Point(703, 313);
             this.btnCl.Margin = new System.Windows.Forms.Padding(4);
             this.btnCl.Name = "btnCl";
@@ -228,7 +215,7 @@
             // 
             this.btnAss.BackColor = System.Drawing.Color.Azure;
             this.btnAss.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAss.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnAss.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnAss.Location = new System.Drawing.Point(512, 313);
             this.btnAss.Margin = new System.Windows.Forms.Padding(4);
             this.btnAss.Name = "btnAss";
@@ -290,11 +277,23 @@
             "--SELECT--",
             "Married",
             "UnMarried"});
-            this.cmbVehicleType.Location = new System.Drawing.Point(359, 161);
+            this.cmbVehicleType.Location = new System.Drawing.Point(379, 159);
             this.cmbVehicleType.Name = "cmbVehicleType";
             this.cmbVehicleType.Size = new System.Drawing.Size(256, 24);
             this.cmbVehicleType.TabIndex = 104;
             this.cmbVehicleType.SelectedIndexChanged += new System.EventHandler(this.cmbVehicleType_SelectedIndexChanged_1);
+            // 
+            // lblRID
+            // 
+            this.lblRID.AutoSize = true;
+            this.lblRID.BackColor = System.Drawing.Color.Transparent;
+            this.lblRID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRID.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblRID.Location = new System.Drawing.Point(357, 104);
+            this.lblRID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRID.Name = "lblRID";
+            this.lblRID.Size = new System.Drawing.Size(0, 29);
+            this.lblRID.TabIndex = 105;
             // 
             // AssigningForm
             // 
@@ -305,6 +304,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1313, 628);
             this.ControlBox = false;
+            this.Controls.Add(this.lblRID);
             this.Controls.Add(this.cmbVehicleType);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.dtpAssignedDate);
@@ -322,7 +322,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbContain);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.cmbRID);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "AssigningForm";
@@ -337,7 +336,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbRID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmbContain;
         private System.Windows.Forms.Label label3;
@@ -356,5 +354,6 @@
         private System.Windows.Forms.DateTimePicker dtpAssignedDate;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cmbVehicleType;
+        private System.Windows.Forms.Label lblRID;
     }
 }

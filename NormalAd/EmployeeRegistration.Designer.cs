@@ -59,14 +59,15 @@
             // 
             // cmbMartial
             // 
+            this.cmbMartial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMartial.FormattingEnabled = true;
             this.cmbMartial.Items.AddRange(new object[] {
             "--SELECT--",
             "Married",
             "UnMarried"});
-            this.cmbMartial.Location = new System.Drawing.Point(859, 411);
+            this.cmbMartial.Location = new System.Drawing.Point(859, 402);
             this.cmbMartial.Name = "cmbMartial";
-            this.cmbMartial.Size = new System.Drawing.Size(256, 24);
+            this.cmbMartial.Size = new System.Drawing.Size(256, 33);
             this.cmbMartial.TabIndex = 61;
             // 
             // label12
@@ -80,13 +81,13 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(171, 29);
             this.label12.TabIndex = 60;
-            this.label12.Text = "Martial Status";
+            this.label12.Text = "Marital Status";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Azure;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(622, 503);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -98,18 +99,15 @@
             // 
             // cmbRole
             // 
+            this.cmbRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbRole.FormattingEnabled = true;
             this.cmbRole.Items.AddRange(new object[] {
             "--SELECT--",
             "Driver",
-            "Assistent",
-            "Finance Officer",
-            "Logistic Coordinator",
-            "Administrator",
-            "Dispatcher"});
-            this.cmbRole.Location = new System.Drawing.Point(859, 284);
+            "Assistent"});
+            this.cmbRole.Location = new System.Drawing.Point(859, 275);
             this.cmbRole.Name = "cmbRole";
-            this.cmbRole.Size = new System.Drawing.Size(256, 24);
+            this.cmbRole.Size = new System.Drawing.Size(256, 33);
             this.cmbRole.TabIndex = 58;
             this.cmbRole.SelectedIndexChanged += new System.EventHandler(this.cmbRole_SelectedIndexChanged);
             // 
@@ -141,16 +139,17 @@
             // 
             // dtpDOB
             // 
+            this.dtpDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDOB.Location = new System.Drawing.Point(859, 190);
+            this.dtpDOB.Location = new System.Drawing.Point(859, 181);
             this.dtpDOB.Name = "dtpDOB";
-            this.dtpDOB.Size = new System.Drawing.Size(256, 22);
+            this.dtpDOB.Size = new System.Drawing.Size(256, 30);
             this.dtpDOB.TabIndex = 55;
             // 
             // txtNIC
             // 
             this.txtNIC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNIC.Location = new System.Drawing.Point(859, 315);
+            this.txtNIC.Location = new System.Drawing.Point(859, 317);
             this.txtNIC.Margin = new System.Windows.Forms.Padding(4);
             this.txtNIC.Name = "txtNIC";
             this.txtNIC.Size = new System.Drawing.Size(256, 30);
@@ -229,6 +228,7 @@
             this.txtPass.Location = new System.Drawing.Point(267, 358);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(256, 30);
             this.txtPass.TabIndex = 47;
             // 
@@ -238,6 +238,7 @@
             this.txtCPass.Location = new System.Drawing.Point(267, 421);
             this.txtCPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtCPass.Name = "txtCPass";
+            this.txtCPass.PasswordChar = '*';
             this.txtCPass.Size = new System.Drawing.Size(256, 30);
             this.txtCPass.TabIndex = 46;
             // 
@@ -345,7 +346,7 @@
             // 
             this.btnReg.BackColor = System.Drawing.Color.Azure;
             this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReg.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnReg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnReg.Location = new System.Drawing.Point(440, 503);
             this.btnReg.Margin = new System.Windows.Forms.Padding(4);
             this.btnReg.Name = "btnReg";
@@ -374,6 +375,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1136, 562);
             this.Controls.Add(this.cmbMartial);
             this.Controls.Add(this.label12);
@@ -403,6 +405,7 @@
             this.Controls.Add(this.label1);
             this.Name = "EmployeeRegistration";
             this.Text = "EmployeeRegistration";
+            this.Load += new System.EventHandler(this.EmployeeRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

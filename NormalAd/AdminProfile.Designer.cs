@@ -61,7 +61,7 @@
             // 
             this.btnClear.BackColor = System.Drawing.Color.Azure;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnClear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnClear.Location = new System.Drawing.Point(821, 442);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
@@ -75,7 +75,7 @@
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Azure;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDelete.Location = new System.Drawing.Point(552, 442);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
@@ -92,7 +92,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(256, 30);
-            this.txtEmail.TabIndex = 127;
+            this.txtEmail.TabIndex = 1;
             // 
             // txtPassword
             // 
@@ -102,7 +102,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(256, 30);
-            this.txtPassword.TabIndex = 125;
+            this.txtPassword.TabIndex = 2;
             // 
             // txtCPass
             // 
@@ -113,6 +113,8 @@
             this.txtCPass.PasswordChar = '*';
             this.txtCPass.Size = new System.Drawing.Size(256, 30);
             this.txtCPass.TabIndex = 124;
+            this.txtCPass.Text = "3";
+            this.txtCPass.TextChanged += new System.EventHandler(this.txtCPass_TextChanged);
             // 
             // label7
             // 
@@ -170,7 +172,7 @@
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.Azure;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnUpdate.Location = new System.Drawing.Point(269, 442);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
@@ -186,7 +188,7 @@
             this.lblProfile.BackColor = System.Drawing.Color.Transparent;
             this.lblProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProfile.ForeColor = System.Drawing.Color.Lavender;
-            this.lblProfile.Location = new System.Drawing.Point(541, 25);
+            this.lblProfile.Location = new System.Drawing.Point(476, 36);
             this.lblProfile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProfile.Name = "lblProfile";
             this.lblProfile.Size = new System.Drawing.Size(130, 42);

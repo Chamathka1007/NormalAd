@@ -15,7 +15,7 @@ namespace NormalAd
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VehicleView());
+            Application.Run(new LoginForm());
         }
     }
 }

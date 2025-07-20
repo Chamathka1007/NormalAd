@@ -32,16 +32,14 @@
             this.btnCl = new System.Windows.Forms.Button();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.lblCapacity = new System.Windows.Forms.Label();
-            this.lblStatus = new System.Windows.Forms.Label();
             this.lblNotes = new System.Windows.Forms.Label();
             this.lblCType = new System.Windows.Forms.Label();
             this.lblContainer = new System.Windows.Forms.Label();
             this.txtNumber = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbType = new System.Windows.Forms.ComboBox();
             this.txtCapacity = new System.Windows.Forms.TextBox();
-            this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.dgvContainers = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContainers)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +48,7 @@
             // 
             this.btnCl.BackColor = System.Drawing.Color.Azure;
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCl.Location = new System.Drawing.Point(669, 544);
             this.btnCl.Margin = new System.Windows.Forms.Padding(4);
             this.btnCl.Name = "btnCl";
@@ -63,7 +61,7 @@
             // txtNotes
             // 
             this.txtNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNotes.Location = new System.Drawing.Point(259, 433);
+            this.txtNotes.Location = new System.Drawing.Point(258, 348);
             this.txtNotes.Margin = new System.Windows.Forms.Padding(4);
             this.txtNotes.Multiline = true;
             this.txtNotes.Name = "txtNotes";
@@ -83,26 +81,13 @@
             this.lblCapacity.TabIndex = 72;
             this.lblCapacity.Text = "Capacity";
             // 
-            // lblStatus
-            // 
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
-            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblStatus.Location = new System.Drawing.Point(14, 371);
-            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(85, 29);
-            this.lblStatus.TabIndex = 71;
-            this.lblStatus.Text = "Status";
-            // 
             // lblNotes
             // 
             this.lblNotes.AutoSize = true;
             this.lblNotes.BackColor = System.Drawing.Color.Transparent;
             this.lblNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblNotes.Location = new System.Drawing.Point(14, 434);
+            this.lblNotes.Location = new System.Drawing.Point(19, 348);
             this.lblNotes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNotes.Name = "lblNotes";
             this.lblNotes.Size = new System.Drawing.Size(82, 29);
@@ -148,7 +133,7 @@
             // 
             this.btnSave.BackColor = System.Drawing.Color.Azure;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnSave.Location = new System.Drawing.Point(395, 544);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
@@ -171,18 +156,19 @@
             this.label1.TabIndex = 63;
             this.label1.Text = "Container";
             // 
-            // comboBox1
+            // cmbType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbType.FormattingEnabled = true;
+            this.cmbType.Items.AddRange(new object[] {
             "--SELECT--",
             "Refrigerated",
             "Open Top"});
-            this.comboBox1.Location = new System.Drawing.Point(258, 257);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(256, 24);
-            this.comboBox1.TabIndex = 90;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cmbType.Location = new System.Drawing.Point(258, 257);
+            this.cmbType.Name = "cmbType";
+            this.cmbType.Size = new System.Drawing.Size(256, 33);
+            this.cmbType.TabIndex = 90;
+            this.cmbType.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // txtCapacity
             // 
@@ -192,19 +178,6 @@
             this.txtCapacity.Name = "txtCapacity";
             this.txtCapacity.Size = new System.Drawing.Size(256, 30);
             this.txtCapacity.TabIndex = 91;
-            // 
-            // cmbStatus
-            // 
-            this.cmbStatus.FormattingEnabled = true;
-            this.cmbStatus.Items.AddRange(new object[] {
-            "--SELECT--",
-            "Available",
-            "In Use",
-            "Maintenance"});
-            this.cmbStatus.Location = new System.Drawing.Point(258, 371);
-            this.cmbStatus.Name = "cmbStatus";
-            this.cmbStatus.Size = new System.Drawing.Size(256, 24);
-            this.cmbStatus.TabIndex = 92;
             // 
             // dgvContainers
             // 
@@ -227,13 +200,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1120, 624);
             this.Controls.Add(this.dgvContainers);
-            this.Controls.Add(this.cmbStatus);
             this.Controls.Add(this.txtCapacity);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbType);
             this.Controls.Add(this.btnCl);
             this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.lblCapacity);
-            this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.lblNotes);
             this.Controls.Add(this.lblCType);
             this.Controls.Add(this.lblContainer);
@@ -253,16 +224,14 @@
         private System.Windows.Forms.Button btnCl;
         private System.Windows.Forms.TextBox txtNotes;
         private System.Windows.Forms.Label lblCapacity;
-        private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblNotes;
         private System.Windows.Forms.Label lblCType;
         private System.Windows.Forms.Label lblContainer;
         private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbType;
         private System.Windows.Forms.TextBox txtCapacity;
-        private System.Windows.Forms.ComboBox cmbStatus;
         private System.Windows.Forms.DataGridView dgvContainers;
     }
 }

@@ -19,6 +19,7 @@ namespace NormalAd
             InitializeComponent();
             _customerId = customerId;
         }
+        // Event handlers for button clicks to navigate to different job-related forms
 
         private void btnCJob_Click(object sender, EventArgs e)
         {

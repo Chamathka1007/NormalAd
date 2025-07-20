@@ -122,6 +122,7 @@
             this.Controls.Add(this.lblWelcome);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CDashboards";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CDashboard";
             this.Load += new System.EventHandler(this.CDashboards_Load);
             this.menuStrip1.ResumeLayout(false);

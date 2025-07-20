@@ -18,6 +18,7 @@ namespace NormalAd
         {
             InitializeComponent();
             cmbRole.SelectedIndex = 0;
+            cmbMartial.SelectedIndex = 0;
         }
 
         private void btnReg_Click(object sender, EventArgs e)
@@ -121,6 +122,11 @@ namespace NormalAd
         }
 
         private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmployeeRegistration_Load(object sender, EventArgs e)
         {
 
         }

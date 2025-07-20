@@ -93,7 +93,16 @@ namespace NormalAd
         private void ServiceHistory_Load(object sender, EventArgs e)
         {
             LoadServiceHistory();
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (row.Cells["Status"].Value?.ToString() == "Completed")
+                {
+                    row.DefaultCellStyle.BackColor = Color.LightGray;
+                }
+            }
+
         }
+
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
@@ -110,6 +119,11 @@ namespace NormalAd
             dtpFrom.Value = DateTime.Today;
             dtpTo.Value = DateTime.Today;
             LoadServiceHistory(); // Reload without filters
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

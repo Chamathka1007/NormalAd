@@ -16,26 +16,20 @@ namespace NormalAd
     {
         private string connStr = "server=localhost;database=ad;uid=root;pwd=2002;";
 
+        /// <summary>Initializes a new instance of the <see cref="ReportForm" /> class.</summary>
         public ReportForm()
         {
             InitializeComponent();
+            
         }
 
+        /// <summary>Handles the Load event of the ReportForm control.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
         private void ReportForm_Load(object sender, EventArgs e)
         {
-            if (cmbReportType.Items.Count == 0)
-            {
-                cmbReportType.Items.AddRange(new string[]
-                {
-                    "Service History",
-                    "Customer Records",
-                    "Employee Records",
-                    "Vehicle Records",
-                    "Assigning Records"
-                });
-            }
-
-            cmbReportType.SelectedIndex = -1;
+            InitializeReportTypeComboBox();
+            cmbReportType.SelectedIndex = 0;
         }
 
         private void btnGenerateReport_Click(object sender, EventArgs e)
@@ -57,11 +51,15 @@ namespace NormalAd
 
         }
 
-        private void btnGenerateReport_Click_1(object sender, EventArgs e)
+        /// <summary>Handles the 1 event of the btnGenerateReport_Click control.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        
+            private void btnGenerateReport_Click_1(object sender, EventArgs e)
         {
-            if (cmbReportType.SelectedIndex == -1)
+            if (cmbReportType.SelectedIndex <= 0) // index 0 is --SELECT--
             {
-                MessageBox.Show("Please select a report type.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please select a valid report type.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -123,6 +121,12 @@ namespace NormalAd
                         {
                             var dt = new DataTable();
                             adapter.Fill(dt);
+
+                            if (dt.Rows.Count == 0)
+                            {
+                                MessageBox.Show("No data found for the selected criteria.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+
                             dataGridViewReport.DataSource = dt;
                         }
                     }
@@ -291,7 +295,27 @@ namespace NormalAd
             }
         }
 
+        private void InitializeReportTypeComboBox()
+        {
+            cmbReportType.Items.Clear();
+            cmbReportType.Items.AddRange(new string[]
+            {
+                "--SELECT--",
+                "Service History",
+                "Customer Records",
+                "Employee Records",
+                "Vehicle Records",
+                "Assigning Records"
+            });
+        }
+
+
         private void dataGridViewReport_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cmbReportType_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

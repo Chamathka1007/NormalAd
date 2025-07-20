@@ -102,14 +102,14 @@ namespace NormalAd
                                     Enabled = false,
                                     FlatStyle = FlatStyle.Flat,
                                     ForeColor = Color.Black,
-                                    BackColor = status.Equals("Confirmed", StringComparison.OrdinalIgnoreCase)
-                                                ? Color.LightGreen
-                                                : status.Equals("Pending", StringComparison.OrdinalIgnoreCase)
-                                                ? Color.LightSalmon
-                                                : Color.LightGray
+                                    BackColor =
+                                    status.Equals("Confirmed", StringComparison.OrdinalIgnoreCase) ? Color.LightGreen :
+                                     status.Equals("Pending", StringComparison.OrdinalIgnoreCase) ? Color.LightSalmon :
+                                     status.Equals("Completed", StringComparison.OrdinalIgnoreCase) ? Color.Gray :
+                                     Color.LightGray
                                 };
 
-                                // View Progress button (only enabled if Confirmed)
+                                // View Progress button (only enabled if NOT completed)
                                 Button btnViewProgress = new Button
                                 {
                                     Size = new Size(90, 30),
@@ -117,9 +117,11 @@ namespace NormalAd
                                     Text = "View Progress",
                                     FlatStyle = FlatStyle.Flat,
                                     Font = new Font("Segoe UI", 8, FontStyle.Regular),
-                                    BackColor = Color.LightBlue,
                                     Cursor = Cursors.Hand,
-                                    Enabled = status.Equals("Confirmed", StringComparison.OrdinalIgnoreCase)
+                                    Enabled = !status.Equals("Completed", StringComparison.OrdinalIgnoreCase),
+                                    BackColor = !status.Equals("Completed", StringComparison.OrdinalIgnoreCase)
+                                                ? Color.LightBlue
+                                                : Color.LightGray
                                 };
 
                                 btnViewProgress.Click += (s, e) => ShowJobProgress(rid);
@@ -177,9 +179,20 @@ namespace NormalAd
                 {
                     conn.Open();
                     string query = @"
-                        SELECT AssignedDate, DriverName, AssistantName, Status
-                        FROM load_assignment
-                        WHERE RID = @RID";
+                SELECT 
+                    la.AssignedDate,
+                    la.DriverName,
+                    la.AssistantName,
+                    la.Status,
+                    la.VID,
+                    vr.Vehicle_Number,
+                    la.ContainerID,
+                    c.ContainerNumber,
+                    c.ContainerType
+                FROM load_assignment la
+                LEFT JOIN vehicle_registration vr ON la.VID = vr.VID
+                LEFT JOIN container c ON la.ContainerID = c.ContainerID
+                WHERE la.RID = @RID";
 
                     using (var cmd = new MySqlCommand(query, conn))
                     {
@@ -193,22 +206,29 @@ namespace NormalAd
                                 string driver = reader["DriverName"].ToString();
                                 string assistant = reader["AssistantName"].ToString();
                                 string jobStatus = reader["Status"].ToString();
-                                
+                                string vid = reader["VID"].ToString();
+                                string vehicleNumber = reader["Vehicle_Number"].ToString();
+                                string containerID = reader["ContainerID"].ToString();
+                                string containerNumber = reader["ContainerNumber"].ToString();
+                                string containerType = reader["ContainerType"].ToString();
 
                                 string message =
                                     $"Assigned Date: {assignedDate}\n" +
                                     $"Driver: {driver}\n" +
                                     $"Assistant: {assistant}\n" +
-                                    $"Job Status: {jobStatus}";
-                                    
+                                    $"Job Status: {jobStatus}\n" +
+                                    $"Vehicle ID: {vid}\n" +
+                                    $"Vehicle Number: {vehicleNumber}\n" +
+                                    $"Container ID: {containerID}\n" +
+                                    $"Container Number: {containerNumber}\n" +
+                                    $"Container Type: {containerType}";
 
-
-                                    MessageBox.Show(message, "Job Progress",
+                                MessageBox.Show(message, "Job Progress",
                                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             else
                             {
-                                MessageBox.Show("No progress details available for this request.",
+                                MessageBox.Show("No assignment details found for this request.",
                                     "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }

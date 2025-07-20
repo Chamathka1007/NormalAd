@@ -48,7 +48,7 @@
             // 
             this.btnCl.BackColor = System.Drawing.Color.Azure;
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCl.Location = new System.Drawing.Point(721, 458);
             this.btnCl.Margin = new System.Windows.Forms.Padding(4);
             this.btnCl.Name = "btnCl";
@@ -110,7 +110,7 @@
             // 
             this.btnReg.BackColor = System.Drawing.Color.Azure;
             this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReg.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnReg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnReg.Location = new System.Drawing.Point(477, 458);
             this.btnReg.Margin = new System.Windows.Forms.Padding(4);
             this.btnReg.Name = "btnReg";
@@ -135,6 +135,7 @@
             // 
             // cmbType
             // 
+            this.cmbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbType.FormattingEnabled = true;
             this.cmbType.Items.AddRange(new object[] {
             "--SELECT--",
@@ -147,7 +148,7 @@
             "Flatbed Truck"});
             this.cmbType.Location = new System.Drawing.Point(366, 302);
             this.cmbType.Name = "cmbType";
-            this.cmbType.Size = new System.Drawing.Size(256, 24);
+            this.cmbType.Size = new System.Drawing.Size(256, 33);
             this.cmbType.TabIndex = 139;
             // 
             // txtNotes

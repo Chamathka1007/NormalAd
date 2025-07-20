@@ -49,6 +49,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(1033, 300);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // lblEmail
             // 
@@ -96,7 +97,7 @@
             // 
             this.btnFilter.BackColor = System.Drawing.Color.Azure;
             this.btnFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFilter.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnFilter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnFilter.Location = new System.Drawing.Point(851, 28);
             this.btnFilter.Margin = new System.Windows.Forms.Padding(4);
             this.btnFilter.Name = "btnFilter";
@@ -110,7 +111,7 @@
             // 
             this.btnCl.BackColor = System.Drawing.Color.Azure;
             this.btnCl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCl.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCl.Location = new System.Drawing.Point(963, 28);
             this.btnCl.Margin = new System.Windows.Forms.Padding(4);
             this.btnCl.Name = "btnCl";

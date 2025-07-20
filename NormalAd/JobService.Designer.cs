@@ -74,7 +74,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(548, 203);
             this.dataGridView1.TabIndex = 45;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // numericUpDownQuantity
             // 
@@ -94,7 +93,7 @@
             this.label9.Size = new System.Drawing.Size(93, 25);
             this.label9.TabIndex = 43;
             this.label9.Text = "Quantity";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            //this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -107,7 +106,7 @@
             this.label8.Size = new System.Drawing.Size(108, 25);
             this.label8.TabIndex = 42;
             this.label8.Text = "Item Type";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+           // this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // lblID
             // 
@@ -170,7 +169,7 @@
             this.label7.Size = new System.Drawing.Size(135, 25);
             this.label7.TabIndex = 36;
             this.label7.Text = "Special Note";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            //this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -183,7 +182,7 @@
             this.label6.Size = new System.Drawing.Size(57, 25);
             this.label6.TabIndex = 35;
             this.label6.Text = "Date";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            //this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtDL
             // 
@@ -204,7 +203,7 @@
             this.label5.Size = new System.Drawing.Size(178, 25);
             this.label5.TabIndex = 33;
             this.label5.Text = "Delivery Location";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            //this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -217,7 +216,7 @@
             this.label4.Size = new System.Drawing.Size(174, 25);
             this.label4.TabIndex = 32;
             this.label4.Text = "Pick Up Location";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            //this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -238,7 +237,7 @@
             this.label2.Size = new System.Drawing.Size(314, 32);
             this.label2.TabIndex = 30;
             this.label2.Text = "Service Request Form";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            //this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnRequest
             // 
@@ -269,7 +268,7 @@
             this.label1.Size = new System.Drawing.Size(132, 25);
             this.label1.TabIndex = 27;
             this.label1.Text = "Customer ID";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtPL
             // 

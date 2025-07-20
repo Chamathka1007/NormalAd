@@ -43,7 +43,7 @@ namespace NormalAd
                             adapter.Fill(dt);
                             dataGridView1.DataSource = dt;
 
-                            // Add Update & Delete buttons if not already added
+                            // Update and Delete processes
                             if (!dataGridView1.Columns.Contains("Update"))
                             {
                                 DataGridViewButtonColumn btnUpdate = new DataGridViewButtonColumn

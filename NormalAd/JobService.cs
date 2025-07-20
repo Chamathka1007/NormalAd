@@ -30,13 +30,37 @@ namespace NormalAd
 
         private void btnRequest_Click(object sender, EventArgs e)
         {
+            //  Pickup Location
+            if (string.IsNullOrWhiteSpace(txtPL.Text))
+            {
+                MessageBox.Show("Please enter the Pickup Location.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Delivery Location
+            if (string.IsNullOrWhiteSpace(txtDL.Text))
+            {
+                MessageBox.Show("Please enter the Delivery Location.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Item Type
             if (string.IsNullOrWhiteSpace(txtItemType.Text))
             {
                 MessageBox.Show("Please enter the Item Type.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
+            //Quantity (must be > 0)
             int quantity = (int)numericUpDownQuantity.Value;
+            if (quantity <= 0)
+            {
+                MessageBox.Show("Please enter a valid Quantity greater than 0.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Special Note (can be blank)
+            string specialNote = txtNote.Text.Trim();
 
             using (var conn = new MySqlConnection("server=localhost;database=ad;uid=root;pwd=2002;"))
             {
@@ -45,10 +69,10 @@ namespace NormalAd
                     conn.Open();
 
                     string query = @"
-                        INSERT INTO service_request
-                        (CustomerID, PickupLocation, DeliveryLocation, Date, SpecialNote, Item_Type, Quantity)
-                        VALUES
-                        (@CustomerID, @PickupLocation, @DeliveryLocation, @Date, @SpecialNote, @Item_Type, @Quantity)";
+                INSERT INTO service_request
+                (CustomerID, PickupLocation, DeliveryLocation, Date, SpecialNote, Item_Type, Quantity)
+                VALUES
+                (@CustomerID, @PickupLocation, @DeliveryLocation, @Date, @SpecialNote, @Item_Type, @Quantity)";
 
                     using (var cmd = new MySqlCommand(query, conn))
                     {
@@ -56,7 +80,7 @@ namespace NormalAd
                         cmd.Parameters.AddWithValue("@PickupLocation", txtPL.Text.Trim());
                         cmd.Parameters.AddWithValue("@DeliveryLocation", txtDL.Text.Trim());
                         cmd.Parameters.AddWithValue("@Date", dtpDate.Value.Date);
-                        cmd.Parameters.AddWithValue("@SpecialNote", txtNote.Text.Trim());
+                        cmd.Parameters.AddWithValue("@SpecialNote", string.IsNullOrEmpty(specialNote) ? DBNull.Value : (object)specialNote);
                         cmd.Parameters.AddWithValue("@Item_Type", txtItemType.Text.Trim());
                         cmd.Parameters.AddWithValue("@Quantity", quantity);
 
@@ -84,7 +108,7 @@ namespace NormalAd
 
 
 
-       
+
 
 
         private void btnCl_Click(object sender, EventArgs e)
@@ -102,7 +126,10 @@ namespace NormalAd
         {
             lblID.Text = _customerId.ToString();
             dtpDate.Value = DateTime.Today;
+            dtpDate.MinDate = DateTime.Today; // Ensure the date is not in the past
             LoadServiceRequests();
+            dataGridView1.DefaultCellStyle.ForeColor = Color.Black;
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -138,47 +165,13 @@ namespace NormalAd
                 {
                     MessageBox.Show("Error loading service requests: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
+
+
+       
+        
+    
