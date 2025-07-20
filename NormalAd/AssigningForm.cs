@@ -223,8 +223,6 @@ namespace NormalAd
             LoadDrivers();
             LoadAssistants();
         }
-
-
         private void btnCl_Click(object sender, EventArgs e)
         {
             ClearForm();
